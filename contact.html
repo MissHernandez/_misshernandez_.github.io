@@ -6,86 +6,122 @@
 	
 	<title>Melissa Hernandez | Web Developer-in-Training</title>
 
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">	
 
 </head>
 
 <body>
 
-	<div class="top">
+	<nav class="navbar navbar-default">
 
-		<header>
-		
-			<h1 id="name">Melissa Hernandez</h1>
-	
-		</header>
+		<div class="container header">
 
-		<nav>
-	
-			<a href="index.html" class="navlink">About Me</a> &nbsp;|&nbsp;  
-			<a href="portfolio.html" class="navlink">Portfolio</a>  &nbsp;|&nbsp;  
-			<a href="contact.html" class="navlink">Contact</a>
-	
-		</nav>
+			<div class="navbar-header">
 
-	</div>
+				<span class="navbar-brand namelogo">Melissa Hernandez</span>
+			</div>
+					
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="index.html">About</a></li>
+					<li class="active"><a href="portfolio.html">Portfolio</a></li>
+					<li class="active"><a href="contact.html">Contact</a></li>
+				</ul>
 
+		</div>
+
+	</nav>
 
 	<div class="container">
 
-		<section>
+		<div class="row">
 
-			<h2>Contact</h2>
+			<div class="col-md-8">
 
-			<hr class="hrconnect" />
+				<div class="panel panel-default">
 
-			<br/>
+					<section class="panel-body">
 
-			<form>
+						<div class="page-header">
+
+  							<h2>Contact</h2>
+				
+						</div>
+
+						<form>
+
+							<div class="form-group">
+    
+    							<label for="name">Name</label>
+    
+    							<input type="text" class="form-control" id="name" placeholder="John Smith">
+  							
+  							</div>
+  
+  							<div class="form-group">
+    
+    							<label for="email">Email</label>
+    
+    							<input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+ 
+ 							 </div>
+
+ 				 			<div class="form-group">
+    
+    							<label for="message">Message</label>
+    
+    							<textarea class="form-control" rows="6" id="message"></textarea>
+      
+  							</div>
+  					
+  							<button type="submit" class="btn btn-default">Submit</button>
+
+						</form>
+
+					</section>
+
+				</div>
+
+			</div>
+
+			<div class="col-md-1"></div>
+
+			<div class="col-md-3">
+
+				<div class="panel panel-default">
+
+					<aside class="panel-body">
+
+						<div class="page-header">
 	
-				Name <br/>
-				<input type="text" name="Name" value="John Smith"> 
+						<h3>Connect with Me</h3>
 
-				<br/>
-				<br/>
-	
-				Email <br/>
-				<input type="text" name="Email" value="example@gmail.com"> 
+						</div>
 
-				<br/>
-				<br/>
-	
-				Message <br/>
-				<textarea name="textarea" rows="10" cols="80"></textarea>
+						<a href="https://github.com/MissHernandez"><img src="assets/images/github.png" class="imgsocial" alt="GitHub"></a>&nbsp;<a href="https://www.linkedin.com/in/misshernandez/"><img src="assets/images/linkedin.png" class="imgsocial" alt="LinkedIn"></a>&nbsp;<a href="http://stackoverflow.com/users/7676189/melissa-hernandez?tab=profile"><img src="assets/images/stackoverflow.png" class="imgsocial" alt="Stack Overflow"></a>
 
-				<br/>
-				<br/>
-	
-				<button type="Submit">Submit</button>
+					</aside>
 
-			</form>
+				</div>
 
-		</section>
+			</div>
 
-		<aside>
-	
-			<h3>Connect with Me</h3>
+		</div>
 
-			<hr class="hrconnect" />
-
-			<br/>
-
-			<a href="https://github.com/MissHernandez"><img src="assets/images/github.png" width="50px" alt="GitHub"></a>&nbsp;<a href="https://www.linkedin.com/in/misshernandez/"><img src="assets/images/linkedin.png" width="50px" alt="LinkedIn"></a>&nbsp;<a href="http://stackoverflow.com/users/7676189/melissa-hernandez?tab=profile"><img src="assets/images/stackoverflow.png" width="50px" alt="Stack Overflow"></a>
-
-		</aside>
-	
 	</div>
 
-	<footer>
-	
-		&copy; Copyright 2017 Melissa Hernandez
-	
-	</footer>
+    <footer class="navbar navbar-footer-custom navbar-fixed-bottom">
+
+      <div class="container">
+        <p>&copy; Copyright 2017 Melissa Hernandez</p>
+      </div>
+    
+    </footer>
+
+
+
+
 
 </body>
 
